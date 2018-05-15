@@ -4,7 +4,7 @@ FactoryBot.define do
 		address { Faker::Address.street_address }
 		latitude { Faker::Address.latitude.to_f }
 		longitude { Faker::Address.longitude.to_f }
-    specialties { [association(:specialty)] }
+		specialties { [association(:specialty)] }
 
 
 	end
